@@ -23,3 +23,5 @@ driver.find_element_by_css_selector("#TANGRAM__PSP_10__submit").click()
 # xpath定位
 # driver.find_element_by_xpath("//*[@id='u1']/a[7]").click()
 print(driver.title)
+print driver.quit()
+
